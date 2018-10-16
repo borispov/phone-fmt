@@ -1,3 +1,5 @@
+'use strict'
+
 const errorMsgs = { 
   type: 'Error: use string or number type parameter',
   length: 'Invalid phone number, too many or too few digits',
