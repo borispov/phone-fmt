@@ -1,4 +1,4 @@
-# Phone-fmt
+# Phone-fmt [![Build Status](https://travis-ci.org/borispov/phone-fmt.svg?branch=master)](https://travis-ci.org/borispov/phone-fmt) [![Coverage Status](https://coveralls.io/repos/github/borispov/phone-fmt/badge.svg)](https://coveralls.io/github/borispov/phone-fmt)
 ### Israeli mobile number formatter
 
 This is a small module meant to check if a number is a valid number and convert it to a standard convention.
@@ -21,7 +21,3 @@ run npm test, check the test file inside tests folder to see the test I implemen
 
 In lieu of a formal style guide, take care to maintain the existing coding style. Add unit tests for any new or changed functionality. Lint and test your code.
 
-
-[![Build Status](https://travis-ci.org/borispov/phone-fmt.svg?branch=master)](https://travis-ci.org/borispov/phone-fmt)
-
-[![Coverage Status](https://coveralls.io/repos/github/borispov/phone-fmt/badge.svg)](https://coveralls.io/github/borispov/phone-fmt)
