@@ -4,7 +4,8 @@
   "description": "IL Mobile number formatter",
   "main": "src/app.js",
   "scripts": {
-    "test": "mocha --reporter spec"
+    "test": "mocha --reporter spec",
+    "cover": "node_modules/istanbul/lib/cli.js cover node_modules/mocha/bin/_mocha -- -R spec test/*"
   },
   "engines": {
     "node": ">=6.1.0"
@@ -21,6 +22,8 @@
   "homepage": "https://github.com/borispov/phone-fmt#readme",
   "devDependencies": {
     "chai": "^4.2.0",
+    "coveralls": "^3.0.2",
+    "istanbul": "^0.4.5",
     "mocha": "^5.2.0"
   }
 }
