@@ -2,7 +2,7 @@
   "name": "phone-fmt",
   "version": "0.1.0",
   "description": "IL Mobile number formatter",
-  "main": "app.js",
+  "main": "src/app.js",
   "scripts": {
     "test": "mocha --reporter spec"
   },
