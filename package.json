@@ -1,0 +1,26 @@
+{
+  "name": "phone-fmt",
+  "version": "0.1.0",
+  "description": "IL Mobile number formatter",
+  "main": "app.js",
+  "scripts": {
+    "test": "mocha --reporter spec"
+  },
+  "engines": {
+    "node": ">=6.1.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/borispov/phone-fmt.git"
+  },
+  "author": "Boris Povolotsky <boristofu@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/borispov/phone-fmt/issues"
+  },
+  "homepage": "https://github.com/borispov/phone-fmt#readme",
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "mocha": "^5.2.0"
+  }
+}
